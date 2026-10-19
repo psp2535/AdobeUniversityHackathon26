@@ -244,8 +244,8 @@ Microdata-only site, and correctly noindexed utility pages.
 - Rendered-DOM checks need Playwright + Chromium; without them those checks are reported
   as not assessed.
 - Freshness checks compare the site only against itself — no off-site corroboration.
-- Lexical checks run only where the page language is detected and supported; structural
-  checks run everywhere.
+- Some checks run only where the page language is detected and supported; structural
+  checks run everywhere.The next step can be expanding language support.
 
 ## Team
 
